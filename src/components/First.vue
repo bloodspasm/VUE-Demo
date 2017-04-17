@@ -2,7 +2,7 @@
     <div class="first">
       <h1>{{ msg }}</h1>
       <h2>Essential Links</h2>
-      <h2>{{ $route.params.id }}</h2>
+      <h2>参数:{{ $route.params.data }}</h2>
     </div>
 </template>
 
