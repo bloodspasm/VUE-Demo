@@ -18,5 +18,10 @@ module.exports = {
   // add your custom rules here
   'rules': {
     //这里写自定义规则
+    "valid-jsdoc": ["error", {
+      "requireReturn": false,
+      "requireParamDescription": false,
+      "requireReturnDescription": true
+    }]//强制JSDoc注释
   }
 }
