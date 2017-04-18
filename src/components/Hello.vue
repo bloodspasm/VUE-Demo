@@ -13,7 +13,9 @@
     <h2>Ecosystem</h2>
     <ul>
       <li><router-link to="/first">router-link - 1</router-link></li>
-      <li><router-link :to="{name:'first',params:{data:'asd'}}">router-link - 2</router-link></li>
+      <li><router-link :to="{name:'first',params:{id:'asd'}}">router-link - 2</router-link></li>
+      <!--<li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>-->
+      <!--<li><router-link >router-link - 2</router-link></li>-->
     </ul>
     <router-view class="cl"></router-view>
   </div>
